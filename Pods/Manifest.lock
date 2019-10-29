@@ -1,0 +1,20 @@
+PODS:
+  - StepIndicator (1.0.8)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - StepIndicator (~> 1.0.8)
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - StepIndicator
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  StepIndicator: 748b293f671355b021253f82031ac002f153dc81
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 2ed706e3a57bc25c0aa1438b8e82f56484480dfa
+
+COCOAPODS: 1.8.3

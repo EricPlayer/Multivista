@@ -1,0 +1,6 @@
+{
+    "size": ["pequeña", "mediana", "grande"],
+    "dough": ["delgada", "crujiente", "gruesa"],
+    "cheesetype": ["mozarela", "cheddar", "parmesano", "sin queso"],
+    "ingredients": ["jamón", "pepperoni", "pavo", "aceitunas", "cebolla", "piña", "anchoas"]
+}

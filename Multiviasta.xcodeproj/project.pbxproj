@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07BCA87F234B65BC0036B803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA87E234B65BC0036B803 /* AppDelegate.swift */; };
+		07BCA881234B65BC0036B803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA880234B65BC0036B803 /* ViewController.swift */; };
+		07BCA884234B65BC0036B803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BCA882234B65BC0036B803 /* Main.storyboard */; };
+		07BCA886234B65BE0036B803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07BCA885234B65BE0036B803 /* Assets.xcassets */; };
+		07BCA889234B65BE0036B803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BCA887234B65BE0036B803 /* LaunchScreen.storyboard */; };
+		07BCA891234B99470036B803 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 07BCA890234B99470036B803 /* config.json */; };
+		07BCA894234B9DAB0036B803 /* Step1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA893234B9DAB0036B803 /* Step1VC.swift */; };
+		07BCA896234B9DBA0036B803 /* Step2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA895234B9DBA0036B803 /* Step2VC.swift */; };
+		07BCA898234B9DC80036B803 /* Step3VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA897234B9DC80036B803 /* Step3VC.swift */; };
+		07BCA89A234B9DD60036B803 /* Step4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA899234B9DD60036B803 /* Step4VC.swift */; };
+		07BCA89C234B9DE30036B803 /* ConfirmVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA89B234B9DE30036B803 /* ConfirmVC.swift */; };
+		07BCA89F234BC12A0036B803 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA89E234BC12A0036B803 /* RadioButton.swift */; };
+		07BCA8C5234BED620036B803 /* SWComboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA8BA234BED620036B803 /* SWComboxView.swift */; };
+		07BCA8C6234BED620036B803 /* SWComboxSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA8BB234BED620036B803 /* SWComboxSelectionView.swift */; };
+		07BCA8C7234BED620036B803 /* SWComboxTextSelection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07BCA8BC234BED620036B803 /* SWComboxTextSelection.xib */; };
+		07BCA8C8234BED620036B803 /* SWComboxSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA8BD234BED620036B803 /* SWComboxSelectionCell.swift */; };
+		07BCA8C9234BED620036B803 /* SWComboxView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07BCA8BE234BED620036B803 /* SWComboxView.xib */; };
+		07BCA8CA234BED620036B803 /* UIViewEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA8BF234BED620036B803 /* UIViewEx.swift */; };
+		07BCA8CB234BED620036B803 /* SWComboxTextSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA8C0234BED620036B803 /* SWComboxTextSelection.swift */; };
+		07BCA8CC234BED620036B803 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA8C1234BED620036B803 /* NibView.swift */; };
+		07BCA8CD234BED620036B803 /* icn-dropdown.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 07BCA8C2234BED620036B803 /* icn-dropdown.pdf */; };
+		07BCA8CE234BED620036B803 /* SWComboxImageSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA8C3234BED620036B803 /* SWComboxImageSelection.swift */; };
+		07BCA8CF234BED620036B803 /* SWComboxImageSelection.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07BCA8C4234BED620036B803 /* SWComboxImageSelection.xib */; };
+		07BCA8D1234BF3EF0036B803 /* OrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BCA8D0234BF3EF0036B803 /* OrderVC.swift */; };
+		B932938D35C97DB8728A6EB9 /* Pods_Multiviasta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EE66A8782AD417F03B92C69 /* Pods_Multiviasta.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07BCA87B234B65BC0036B803 /* Multiviasta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Multiviasta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07BCA87E234B65BC0036B803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07BCA880234B65BC0036B803 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07BCA883234B65BC0036B803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07BCA885234B65BE0036B803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07BCA888234B65BE0036B803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07BCA88A234B65BE0036B803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07BCA890234B99470036B803 /* config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
+		07BCA893234B9DAB0036B803 /* Step1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1VC.swift; sourceTree = "<group>"; };
+		07BCA895234B9DBA0036B803 /* Step2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2VC.swift; sourceTree = "<group>"; };
+		07BCA897234B9DC80036B803 /* Step3VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step3VC.swift; sourceTree = "<group>"; };
+		07BCA899234B9DD60036B803 /* Step4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step4VC.swift; sourceTree = "<group>"; };
+		07BCA89B234B9DE30036B803 /* ConfirmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmVC.swift; sourceTree = "<group>"; };
+		07BCA89E234BC12A0036B803 /* RadioButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		07BCA8BA234BED620036B803 /* SWComboxView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWComboxView.swift; sourceTree = "<group>"; };
+		07BCA8BB234BED620036B803 /* SWComboxSelectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWComboxSelectionView.swift; sourceTree = "<group>"; };
+		07BCA8BC234BED620036B803 /* SWComboxTextSelection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWComboxTextSelection.xib; sourceTree = "<group>"; };
+		07BCA8BD234BED620036B803 /* SWComboxSelectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWComboxSelectionCell.swift; sourceTree = "<group>"; };
+		07BCA8BE234BED620036B803 /* SWComboxView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWComboxView.xib; sourceTree = "<group>"; };
+		07BCA8BF234BED620036B803 /* UIViewEx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewEx.swift; sourceTree = "<group>"; };
+		07BCA8C0234BED620036B803 /* SWComboxTextSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWComboxTextSelection.swift; sourceTree = "<group>"; };
+		07BCA8C1234BED620036B803 /* NibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		07BCA8C2234BED620036B803 /* icn-dropdown.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "icn-dropdown.pdf"; sourceTree = "<group>"; };
+		07BCA8C3234BED620036B803 /* SWComboxImageSelection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWComboxImageSelection.swift; sourceTree = "<group>"; };
+		07BCA8C4234BED620036B803 /* SWComboxImageSelection.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWComboxImageSelection.xib; sourceTree = "<group>"; };
+		07BCA8D0234BF3EF0036B803 /* OrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderVC.swift; sourceTree = "<group>"; };
+		503F8DCBA6D53177F45B2CA2 /* Pods-Multiviasta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiviasta.debug.xcconfig"; path = "Target Support Files/Pods-Multiviasta/Pods-Multiviasta.debug.xcconfig"; sourceTree = "<group>"; };
+		5EE66A8782AD417F03B92C69 /* Pods_Multiviasta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Multiviasta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4271FA7F8BC41BA334547E5 /* Pods-Multiviasta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Multiviasta.release.xcconfig"; path = "Target Support Files/Pods-Multiviasta/Pods-Multiviasta.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07BCA878234B65BC0036B803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B932938D35C97DB8728A6EB9 /* Pods_Multiviasta.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07BCA872234B65BC0036B803 = {
+			isa = PBXGroup;
+			children = (
+				07BCA8B6234BEAED0036B803 /* Library */,
+				07BCA89D234BC1160036B803 /* Models */,
+				07BCA892234B9D910036B803 /* Controllers */,
+				07BCA87D234B65BC0036B803 /* Multiviasta */,
+				07BCA87C234B65BC0036B803 /* Products */,
+				B63C97EC358AACBB1EC528A2 /* Pods */,
+				BE18FE9C2FCBB0E981B10E4F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07BCA87C234B65BC0036B803 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07BCA87B234B65BC0036B803 /* Multiviasta.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07BCA87D234B65BC0036B803 /* Multiviasta */ = {
+			isa = PBXGroup;
+			children = (
+				07BCA87E234B65BC0036B803 /* AppDelegate.swift */,
+				07BCA880234B65BC0036B803 /* ViewController.swift */,
+				07BCA882234B65BC0036B803 /* Main.storyboard */,
+				07BCA885234B65BE0036B803 /* Assets.xcassets */,
+				07BCA887234B65BE0036B803 /* LaunchScreen.storyboard */,
+				07BCA88A234B65BE0036B803 /* Info.plist */,
+				07BCA890234B99470036B803 /* config.json */,
+			);
+			path = Multiviasta;
+			sourceTree = "<group>";
+		};
+		07BCA892234B9D910036B803 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				07BCA893234B9DAB0036B803 /* Step1VC.swift */,
+				07BCA895234B9DBA0036B803 /* Step2VC.swift */,
+				07BCA897234B9DC80036B803 /* Step3VC.swift */,
+				07BCA899234B9DD60036B803 /* Step4VC.swift */,
+				07BCA89B234B9DE30036B803 /* ConfirmVC.swift */,
+				07BCA8D0234BF3EF0036B803 /* OrderVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		07BCA89D234BC1160036B803 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				07BCA89E234BC12A0036B803 /* RadioButton.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		07BCA8B6234BEAED0036B803 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				07BCA8B9234BED620036B803 /* SWComboxLib */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		07BCA8B9234BED620036B803 /* SWComboxLib */ = {
+			isa = PBXGroup;
+			children = (
+				07BCA8BA234BED620036B803 /* SWComboxView.swift */,
+				07BCA8BB234BED620036B803 /* SWComboxSelectionView.swift */,
+				07BCA8BC234BED620036B803 /* SWComboxTextSelection.xib */,
+				07BCA8BD234BED620036B803 /* SWComboxSelectionCell.swift */,
+				07BCA8BE234BED620036B803 /* SWComboxView.xib */,
+				07BCA8BF234BED620036B803 /* UIViewEx.swift */,
+				07BCA8C0234BED620036B803 /* SWComboxTextSelection.swift */,
+				07BCA8C1234BED620036B803 /* NibView.swift */,
+				07BCA8C2234BED620036B803 /* icn-dropdown.pdf */,
+				07BCA8C3234BED620036B803 /* SWComboxImageSelection.swift */,
+				07BCA8C4234BED620036B803 /* SWComboxImageSelection.xib */,
+			);
+			path = SWComboxLib;
+			sourceTree = "<group>";
+		};
+		B63C97EC358AACBB1EC528A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				503F8DCBA6D53177F45B2CA2 /* Pods-Multiviasta.debug.xcconfig */,
+				A4271FA7F8BC41BA334547E5 /* Pods-Multiviasta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE18FE9C2FCBB0E981B10E4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EE66A8782AD417F03B92C69 /* Pods_Multiviasta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07BCA87A234B65BC0036B803 /* Multiviasta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07BCA88D234B65BE0036B803 /* Build configuration list for PBXNativeTarget "Multiviasta" */;
+			buildPhases = (
+				59E2EBA669E62E8293B5515D /* [CP] Check Pods Manifest.lock */,
+				07BCA877234B65BC0036B803 /* Sources */,
+				07BCA878234B65BC0036B803 /* Frameworks */,
+				07BCA879234B65BC0036B803 /* Resources */,
+				0DBA7BFDCBF041D453D83EB8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Multiviasta;
+			productName = Multiviasta;
+			productReference = 07BCA87B234B65BC0036B803 /* Multiviasta.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07BCA873234B65BC0036B803 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Javier;
+				TargetAttributes = {
+					07BCA87A234B65BC0036B803 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 07BCA876234B65BC0036B803 /* Build configuration list for PBXProject "Multiviasta" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07BCA872234B65BC0036B803;
+			productRefGroup = 07BCA87C234B65BC0036B803 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07BCA87A234B65BC0036B803 /* Multiviasta */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07BCA879234B65BC0036B803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BCA8CD234BED620036B803 /* icn-dropdown.pdf in Resources */,
+				07BCA8C9234BED620036B803 /* SWComboxView.xib in Resources */,
+				07BCA8C7234BED620036B803 /* SWComboxTextSelection.xib in Resources */,
+				07BCA889234B65BE0036B803 /* LaunchScreen.storyboard in Resources */,
+				07BCA891234B99470036B803 /* config.json in Resources */,
+				07BCA886234B65BE0036B803 /* Assets.xcassets in Resources */,
+				07BCA8CF234BED620036B803 /* SWComboxImageSelection.xib in Resources */,
+				07BCA884234B65BC0036B803 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DBA7BFDCBF041D453D83EB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multiviasta/Pods-Multiviasta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Multiviasta/Pods-Multiviasta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Multiviasta/Pods-Multiviasta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59E2EBA669E62E8293B5515D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Multiviasta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07BCA877234B65BC0036B803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BCA89C234B9DE30036B803 /* ConfirmVC.swift in Sources */,
+				07BCA881234B65BC0036B803 /* ViewController.swift in Sources */,
+				07BCA8C5234BED620036B803 /* SWComboxView.swift in Sources */,
+				07BCA87F234B65BC0036B803 /* AppDelegate.swift in Sources */,
+				07BCA894234B9DAB0036B803 /* Step1VC.swift in Sources */,
+				07BCA8CB234BED620036B803 /* SWComboxTextSelection.swift in Sources */,
+				07BCA8CC234BED620036B803 /* NibView.swift in Sources */,
+				07BCA8C8234BED620036B803 /* SWComboxSelectionCell.swift in Sources */,
+				07BCA898234B9DC80036B803 /* Step3VC.swift in Sources */,
+				07BCA896234B9DBA0036B803 /* Step2VC.swift in Sources */,
+				07BCA8C6234BED620036B803 /* SWComboxSelectionView.swift in Sources */,
+				07BCA89A234B9DD60036B803 /* Step4VC.swift in Sources */,
+				07BCA89F234BC12A0036B803 /* RadioButton.swift in Sources */,
+				07BCA8D1234BF3EF0036B803 /* OrderVC.swift in Sources */,
+				07BCA8CE234BED620036B803 /* SWComboxImageSelection.swift in Sources */,
+				07BCA8CA234BED620036B803 /* UIViewEx.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07BCA882234B65BC0036B803 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07BCA883234B65BC0036B803 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07BCA887234B65BE0036B803 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07BCA888234B65BE0036B803 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07BCA88B234B65BE0036B803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07BCA88C234B65BE0036B803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07BCA88E234B65BE0036B803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503F8DCBA6D53177F45B2CA2 /* Pods-Multiviasta.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Multiviasta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.javier.Multiviasta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07BCA88F234B65BE0036B803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4271FA7F8BC41BA334547E5 /* Pods-Multiviasta.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Multiviasta/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.javier.Multiviasta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07BCA876234B65BC0036B803 /* Build configuration list for PBXProject "Multiviasta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BCA88B234B65BE0036B803 /* Debug */,
+				07BCA88C234B65BE0036B803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07BCA88D234B65BE0036B803 /* Build configuration list for PBXNativeTarget "Multiviasta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07BCA88E234B65BE0036B803 /* Debug */,
+				07BCA88F234B65BE0036B803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07BCA873234B65BC0036B803 /* Project object */;
+}

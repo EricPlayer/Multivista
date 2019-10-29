@@ -1,0 +1,6 @@
+framework module Pods_Multiviasta {
+  umbrella header "Pods-Multiviasta-umbrella.h"
+
+  export *
+  module * { export * }
+}
